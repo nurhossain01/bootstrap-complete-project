@@ -7,3 +7,18 @@ body{
 h1,h2,h4,h5,h6{
   font-family: 'Roboto', sans-serif;
 }
+.carousel-item img{
+  height: 501px;
+ }
+.opacity{
+  position: relative;
+  z-index: 1;
+}
+.opacity::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+}
