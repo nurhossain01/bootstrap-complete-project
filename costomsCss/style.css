@@ -26,4 +26,20 @@ h1,h2,h4,h5,h6{
   width: 178px;
   height: 129px;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2em;
+}
+
+@media only screen and (max-width:576px) {
+ .grid{
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto
+ }
+}
+@media only screen and (min-width:577px) and (max-width: 768px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr); 
+  } 
 }
