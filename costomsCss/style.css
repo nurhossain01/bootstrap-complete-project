@@ -22,10 +22,6 @@ h1,h2,h4,h5,h6{
   background-color: black;
   opacity: .5;
 }
-.courses_img{
-  width: 178px;
-  height: 129px;
-}
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
