@@ -202,23 +202,31 @@
        <p>Apply online for Bridge Course- Basic Certificate<br> Course in Fundamentals of Digital Marketing.</p>
       </div>
       <div class="col-auto">
-        <label for="inputPassword2" class="visually-hidden"></label>
-        <input type="text" class="form-control bg-light px-5 border-0" id="inputPassword2" placeholder="write somthing">
-
         <!-- Button trigger modal -->
       <div>
-        <button type="button" class="btn btn-danger ms-5 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">submite</button>
+        <button style="padding: 10px 50px;" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Registration now</button>
       
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">More-Information</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              ...
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="inter your password">
+                </div>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
